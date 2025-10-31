@@ -1,0 +1,10 @@
+name: FLAT Ingest (Drush commands)
+type: module
+description: "Drush commands to create Islandora entities in batch, from an external script."
+core_version_requirement: ^10 || ^11
+package: FLAT
+dependencies:
+- drupal:node
+- drupal:media
+- drupal:file
+- drupal:taxonomy

@@ -1,0 +1,14 @@
+{
+    "name": "custom/flat_ingest",
+    "description": "Drush commands to help with batch Islandora entity creation.",
+    "type": "drupal-module",
+    "require": {
+        "drupal/core": "^10 || ^11",
+        "drush/drush": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\flat_ingest\\": "src/"
+        }
+    }
+}
