@@ -1,7 +1,9 @@
 {
-    "name": "custom/flat_ingest",
+    "name": "thelanguagearchive/flat_ingest",
     "description": "Drush commands to help with batch Islandora entity creation.",
-    "type": "drupal-module",
+    "type": "drupal-custom-module",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
     "require": {
         "drupal/core": "^10 || ^11",
         "drush/drush": "^10.0 || ^11.0"
